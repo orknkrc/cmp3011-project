@@ -1,0 +1,10 @@
+#python
+__pycache__/
+*.pyc
+#yolo models
+yolov8*.pt
+#keep the input and output folders but not their contents
+input/*
+!input/.gitkeep
+output/*
+!output/.gitkeep
