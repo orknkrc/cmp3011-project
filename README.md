@@ -1,8 +1,8 @@
 # Real-Time Vehicle Counting System Using YOLO
 
-Introduction to Computer Vision CMP 3011 course project. The system detects vehicles in traffic videos
-with YOLOv8, tracks them with our own centroid tracker, and counts the vehicles
-that cross a virtual line.
+A course project for Introduction to Computer Vision (CMP 3011). The system
+detects vehicles in traffic videos with YOLOv8, tracks them with our own
+centroid tracker, and counts the vehicles that cross a virtual line.
 
 ## Installation
 
@@ -121,3 +121,14 @@ Measured results are given in `docs/results_report.md`.
   two for one vehicle, because the estimated distance is very sensitive to the
   measured box width when the vehicle is far away. The camera focal length is
   also assumed rather than known. See section 6.8 of `docs/results_report.md`.
+
+## License
+
+The source code is released under the MIT License (see `LICENSE`). The test
+video is the property of its author and is used under its own Creative Commons
+Attribution licence (see the Dataset section above).
+
+## Acknowledgments
+
+This project was developed as the final term project for the CMP 3011
+(Introduction to Computer Vision) course.
